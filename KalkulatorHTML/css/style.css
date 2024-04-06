@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.container-kalk {
+    height: 565px;
+    width: 426px;
+    background-color: #110f0f;
+    border-radius: 48px;
+}
+
+.container-kalk-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border: 1px solid grey;
+}
+
+.container-kalk-screen,
+button {
+    height: 85px;
+    width: 370px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+
+.del-button,
+.clr-button,
+.plus-button,
+.minus-button,
+.liczba-button,
+.mnozenie-button,
+.dzielenie-button {
+    display: inline-block;
+}
+
+.del,
+.clr,
+.operator,
+button {
+    width: 72px;
+    height: 55px;
+    color: white;
+    background-color: #0e9a46;
+    margin-top: 45px;
+    margin-left: 25px;
+    border: none;
+    font-size: 30px;
+}
+
+.liczba,
+.operator,
+.rownanie {
+    margin-top: 10px;
+}
+
+.rownanie-button {
+    float: right;
+    margin-right: 29px;
+}
+
+.rownanie {
+    height: 139px;
+    width: 70px;
+    background-color: #0e9a46;
+    color: white;
+    border: none;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+#zero-button {
+    height: 59px;
+    width: 268px;
+    background-color: #0e9a46;
+    font-size: 30px;
+    border: none;
+    color: white;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.container-kalk-button {
+    margin-top: 15px;
+}
+
+p,
+.znak {
+    font-size: 30px;
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+button {
+    transition-delay: 0.5ms;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
