@@ -1,0 +1,37 @@
+/* Responsive */
+@media screen and (max-width:768px) {
+    /* Responsive menu */
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .menu li{
+        text-align: center;
+        margin: 0;
+    }
+    .menu_icons{
+        display: block;
+    }
+    .info {
+        display: none;
+    }
+    /* Responsive About */
+    .about-info{
+        font-size: 15px;
+        margin-top: 15px;
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+    /* Responsive technology */
+    .container-img{
+        flex-wrap: wrap;
+    }
+     h2{
+        font-size: 25px;
+     }
+     body{
+        width: 100%;
+        height: auto;
+     }
+}
