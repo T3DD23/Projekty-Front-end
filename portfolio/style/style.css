@@ -15,9 +15,10 @@ body{
     height: 690px;
     background-image: url("./../img/logo.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     text-align:center;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
+    background-position: center;
 }
 /*Hamburger menu style*/
 .header-nav{
